@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basketball</title>
+    <link rel="stylesheet" href="estil.css">
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img  id="tancar" src="close.png"/>
+            <h1>Basketball</h1>
+            <div id="navegacio">
+       <div class="est" id="jordan">
+           <h3>JORDAN</h3>
+           <img src="carajordan.jpg" class="imgNav">
+       </div>
+       <div class="est" id="russell">
+           <h3>RUSSELL</h3>
+           <img src="images.jpg" class="imgNav">
+       </div>
+       <div class="est" id="abdul">
+            <h3>ABDUL</h3>
+            <img id="abdulimg" class="imgNav" src="jabbar_200_070423(1).jpg">
+       </div>
+       <div class="est" id="magic">
+           <h3>MAGIC</h3>
+           <img id="magicimg" class="imgNav"  src="jh-Q4bY4.jpg">
+       </div>
+       <div class="est" id="bird">
+           <h3>L.BIRD</h3>
+           <img id="birdimg" class="imgNav" src="zebmD1De_400x400.jpg">
+       </div>
+
+       <div class="oest" id="kobe">
+           <h3>BRYANT</h3>
+           <img id="kobeimg" class="imgNav"  src="cover256x256-b4c0e9d7e44047e883bc326e609eb50f.jpg">
+       </div>
+       <div class="oest" id="iverson">
+           <h3>IVERSON</h3>
+           <img id="iversonimg" class="imgNav" src="Allen_Iverson_headshot.jpg">
+       </div>
+       <div class="oest" id="oneal">
+           <h3>O'NEAL</h3>
+           <img id="onealimg" class="imgNav" src="oneal.jpeg">
+       </div>
+       <div class="oest" id="curry">
+           <h3>CURRY</h3>
+           <img  id="curryimg" class="imgNav" src="curry.jpeg_256">
+       </div>
+       <div class="oest" id="lebron">
+           <h3>LEBRON</h3>
+           <img id="lebronimg" class="imgNav" src="lebron.jpg">
+       </div>
+   </div>
+        </header>
+
+        </div>
+    
+        <div id="pista">
+        <div id="reproductor">
+                    <button id= "commutar">
+                        <span id="playPause">&#9122;&#9125;</span>
+                    </button>
+                    <button id="parar">
+                        <span>&#x25A0;</span>
+                    </button>
+                    <button id="atrasar">
+                        <span>&#5176;&#5176;</span>
+                    </button>
+                    <button id="avançar">
+                        <span>&#5171;&#5171;</span>
+                    </button>
+
+        </div>
+            <div id="legends">
+                <div class="jugador present" id="jordan" >
+                    <video autoplay loop muted class="videos">
+                        <source src="jordan.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="jugador present" id="russell" >
+                    <video autoplay loop muted class="videos">    
+                        <source src="russel.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="jugador present" id="abdul" >
+                    <video autoplay loop muted class="videos">    
+                        <source src="abdulJabbar.mp4" type="video/mp4">
+                    </video>                    
+                </div>
+                <div class="jugador present" id="magic" >
+                    <video autoplay loop muted class="videos">    
+                        <source src="magicJhonson.mp4" type="video/mp4">
+                    </video>                     
+                </div>
+                <div class="jugador present" id="bird" >
+                    <video autoplay loop muted class="videos">    
+                        <source src="larryBird.mp4" type="video/mp4">
+                    </video>                         
+                </div>
+            </div>
+            <div id="present">
+                <div class="jugador legend" id="kobe">
+                    <video autoplay loop muted class="videos">    
+                        <source src="kobe.mp4" type="video/mp4">
+                    </video>                           
+                </div>
+                <div class="jugador legend" id="iverson">
+                    <video autoplay loop muted class="videos">    
+                        <source src="iverson.mp4" type="video/mp4">
+                    </video>                      
+                </div>
+                <div class="jugador" id="oneal">
+                    <video autoplay loop muted class="videos">    
+                        <source src="shaquilleOneal.mp4" type="video/mp4">
+                    </video>     
+                    
+                </div>
+                <div class="jugador legend" id="curry">
+                    
+                    <video autoplay loop muted class="videos">    
+                        <source src="stephenCurry.mp4" type="video/mp4">
+                    </video>     
+                </div>
+                <div class="jugador legend" id="lebron">
+                    <video autoplay loop muted class="videos">    
+                        <source src="lebronJames.mp4" type="video/mp4">
+                    </video>  
+                    
+                </div>
+            </div>         
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
