@@ -34,14 +34,14 @@ var video;
                     [...video].map((elem, i) => { 
                     if (contenidorVideo[i].style.borderRadius === "0%"){
                         if (!video[i].paused) {
-                            document.getElementById("playPause").innerHTML="&#x25BA;";
+                            document.getElementById("playPause").innerHTML='<img src="play.png">';
 
                         video[i].pause();
 
                         }
                         else {
                             video[i].play();
-                            document.getElementById("playPause").innerHTML="&#9122;&#9125;";
+                            document.getElementById("playPause").innerHTML='<img src="pause.png">';
                         }
                     }
                 });
